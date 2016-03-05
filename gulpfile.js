@@ -20,7 +20,7 @@ gulp.task('clean', function () {
 
 // sass
 gulp.task('sass', function () {
-  return gulp.src('./sass/**/*.scss')
+  return gulp.src('sass/**/*.scss')
 		.pipe(plumber())
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('dist/css'));
@@ -28,7 +28,7 @@ gulp.task('sass', function () {
 
 // js compress
 gulp.task('uglify', function() {
-  return gulp.src('dis/**/*.js')
+  return gulp.src('js/**/*.js')
     .pipe(uglify())
     .pipe(gulp.dest('dist/js'));
 });
@@ -36,7 +36,7 @@ gulp.task('uglify', function() {
 // file injector
 gulp.task('inject', function () {
 	gulp.src('index.html')
-		.pipe(inject(gulp.src('dist/**/*.css', { 
+		.pipe(inject(gulp.src(['dist/**/*.css', 'dist/**/*.js'], { 
 			read: false 
 		})
 		.pipe(naturalSort()), { 

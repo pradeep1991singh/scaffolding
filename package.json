@@ -1,0 +1,38 @@
+{
+  "name": "scafollding",
+  "version": "1.0.0",
+  "description": "scafollding front end projects using gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeep1991singh/scafollding.git"
+  },
+  "keywords": [
+    "scafollding",
+    "front-end",
+    "gulp"
+  ],
+  "author": "pradeep1991singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pradeep1991singh/scafollding/issues"
+  },
+  "homepage": "https://github.com/pradeep1991singh/scafollding#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^3.0.0",
+    "gulp-natural-sort": "^0.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-watch": "^4.3.5",
+    "gulp-webserver": "^0.9.1",
+    "run-sequence": "^1.1.5"
+  },
+  "dependencies": {
+    "del": "^2.2.0"
+  }
+}

@@ -1,11 +1,14 @@
 This folder is for files you will be editing.
 
 ### index.html
+
 index.html file is main entry file which is root file in an html project. If no file is specified as root file explicitly then index.html always treat as root/main entry file in a html project.
 
 ### Resources
 
 `css/` => css folder will hold all your custom css files.
+
+`css/ => css` => folder will hold all your custom css files.
 
 `css/images/` => images folder will hold images related to your css.
 

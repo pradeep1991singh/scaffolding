@@ -6,4 +6,6 @@ look for html folder
 
 ## Angular project
 
+WIP
+
 All about scaffolding

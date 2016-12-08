@@ -5,14 +5,15 @@ index.html file is main entry file which is root file in an html project. If no 
 
 ### Resources
 
-css/ => css folder will hold all your custom css files.
-css/images/ => images folder will hold images related to your css.
+`css/` => css folder will hold all your custom css files.
 
-data/ => data folder will hold project custom data files e.g. .json, .xml, .csv, .txt files.
+`css/images/` => images folder will hold images related to your css.
 
-images/ => images folder will hold images which are used directly in index.html or any other page in your application.
+`data/` => data folder will hold project custom data files e.g. .json, .xml, .csv, .txt files.
 
-js/ => js folder will hold custom javascript files.
+`images/` => images folder will hold images which are used directly in index.html or any other page in your application.
+
+`js/` => js folder will hold custom javascript files.
 
 ### Vendors
 

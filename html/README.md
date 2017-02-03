@@ -2,6 +2,7 @@ Lets consider we are building todo application.
 
 # Project structure
 
+```
 todo-app/
 app/
 ---- index.html
@@ -18,6 +19,7 @@ app/
 ------------ site-logo.jpg
 -------- js/
 ------------ main.js
+```
 
 ### index.html
 

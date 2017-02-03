@@ -4,7 +4,6 @@ Lets consider we are building todo application.
 
 ```
 todo-app/
-app/
 ---- index.html
 ---- vendors/
 -------- jquery.js

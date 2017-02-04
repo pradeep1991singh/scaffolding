@@ -22,11 +22,11 @@ todo-app/
 
 ### index.html
 
-index.html file is main entry file which is root file in an html project. If no file is specified as root file explicitly then index.html always treat as root/main entry file in a html project.
+`index.html` => this file is main entry file which is root file in an html project. If no file is specified as root file explicitly then `index.html` always treat as root/main entry file in a html project.
 
 ### Vendors
 
-vendors folder is for libraries and general-purpose files.
+`vendors/` => folder is for libraries and general-purpose files.
 
 ### Resources
 

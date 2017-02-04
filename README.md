@@ -1,11 +1,11 @@
 # Scaffolding
+- A to Z of project scaffolding
 
-## HTML/CSS project
+### HTML project
+- follow [html](https://github.com/pradeep1991singh/scaffolding/tree/master/html) folder.
 
-look for [html](https://github.com/pradeep1991singh/scaffolding/tree/master/html) folder
+### Angular project
+- follow [angular](https://github.com/pradeep1991singh/scaffolding/tree/master/angular) folder.
 
-## Angular project
-
-WIP
-
-All about scaffolding
+### Java project
+- WIP

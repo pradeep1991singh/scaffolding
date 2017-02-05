@@ -1,9 +1,9 @@
 Lets consider we are building todo application.
 
-# Project structure
+## Project structure
 
 ```
-angular-todo-app/
+angular-by-type/
 
 ---- bower.json
 ---- gulpfile.js
@@ -44,25 +44,36 @@ angular-todo-app/
 -------- dev dependencies modules
 ```
 
-### bower.json
+## Introduction
+You are seeing several files and folder information. Let’s discuss them one at a time.
 
-`bower.json` will manage application package dependencies like angular. 
+### Naming convention
+We will be separating names with hyphen(snake-case) and will use dots to add types of file e.g.
+If we want to create `todo-list` controller then we will using file name something like below.
 
-### gulpfile.js
+```
+todo-list.controller.js
+``` 
+
+#### bower.json
+
+`bower.json` will manage application package dependencies like angular.
+
+#### gulpfile.js
 
 `gulpfile.js` for automate development process.
 
-### package.json
+#### package.json
 
 `package.json` for managing project version, project dependencies, dev-dependencies etc.
 
-### app
+#### app
 
-`app/` will hold all files related to application's actual functionality.
+`app/` will hold all files related to application's actual functionality. It is parent folder for your todo application.
 
 `app/index.html` file is main entry file.
 
-`app/scripts/` will hold all scripts files related to application. 
+`app/scripts/` will hold all scripts files related to application.  
 
 `app/scripts/app.js` will hold main script file for angular and this file play main role in application bootstrap.
 
@@ -78,7 +89,7 @@ angular-todo-app/
 
 `app/views/` will hold all templates files related to application.
 
-### tests
+#### tests
 
 `tests/` will hold project's all type of tests like unit, e2e test etc.
 
@@ -90,11 +101,14 @@ angular-todo-app/
 
 `tests/e2e/` will hold end-to-end test related to application.
 
-### bower_components
+#### bower_components
 
 `bower_components/` will hold all project dependencies like angular.
 
-### node_modules
+#### node_modules
 
 `node_modules/` will hold project's npm dependencies like gulp.
 
+#### Where to go NEXT
+
+- [Demo](https://github.com/pradeep1991singh/angular-testing)

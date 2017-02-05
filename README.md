@@ -5,9 +5,9 @@
 - follow [html](https://github.com/pradeep1991singh/scaffolding/tree/master/html) folder.
 
 ### Angular project structure 
-- follow [angular (by file types)](https://github.com/pradeep1991singh/scaffolding/tree/master/angular) folder.
+- follow [angular-by-file](https://github.com/pradeep1991singh/scaffolding/tree/master/angular/angular-by-file) folder.
 
-- follow [angular (by feature types)](https://github.com/pradeep1991singh/scaffolding/tree/master/angular/angular-by-feature) folder.
+- follow [angular-by-feature](https://github.com/pradeep1991singh/scaffolding/tree/master/angular/angular-by-feature) folder.
 
 ### Java project
 - WIP
